@@ -38,13 +38,13 @@
                 <a id="toggleTheme" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content:'切换主题'}">
                     <i class="mdui-icon material-icons">brightness_6</i>
                 </a>
-                <a href="https://gitee.com/ShuShuicu/MioDrive" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content:'查看源码'}">
+                <a target="_blank" rel="external nofollow noopener" href="https://gitee.com/ShuShuicu/MioDrive" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content:'查看源码'}">
                     <i class="mdui-icon material-icons">code</i>
                 </a>
             </div>
         </header>
     <div class="mdui-container">
-        <div class="mdui-card mdui-hoverable mdui-m-y-5" style="border-radius: 8px;">
+        <div class="mdui-typo mdui-card mdui-hoverable mdui-m-y-5" style="border-radius: 8px;">
             <div class="mdui-card-media mdui-card-content">
                 <div class="mdui-card-primary-title mdui-text-truncate" style="text-align: center;">
                 <?php echo $siteTitle; ?><br><small><?php echo $siteDescription; ?></small>
